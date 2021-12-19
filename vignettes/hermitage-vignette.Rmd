@@ -1,0 +1,216 @@
+---
+title: "Hermitage package: palettes inspired by colors of art collection of L'ermitage/Hermitage museum"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{hermitage-vignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.retina = 3,
+  fig.width = 10,
+  fig.height = 7
+)
+```
+
+# Installation
+```{r eval=FALSE}
+install.packages("devtools") 
+devtools::install_github("evpatora/hermitage") 
+```
+
+```{r setup}
+library(hermitage)
+library(tidyverse)
+library(magrittr)
+```
+
+# Overview of palettes
+```{r fig.height=3, fig.width=3}
+names_of_palettes <- names(hermitage_palettes)
+lengths_of_palletes <- map(hermitage_palettes,~length(.x))
+
+# palettes' details
+map(names_of_palettes, ~hermitage_palette(.x, type = "discrete"))
+
+# palettes's colours
+walk2(names_of_palettes, lengths_of_palletes, ~pie(rep(1, length(hermitage_palette(.x, type = "discrete"))), labels = "", col = hermitage_palette(.x, type = "discrete") , main = paste0(.x, " | n = ", .y), clockwise = T, border = "white", family = "Varela Round"))
+```
+
+# Use cases
+```{r}
+# install.packages("palmerpenguins")
+library(palmerpenguins)
+
+ggplot(data = penguins, aes(x = species, y = flipper_length_mm, fill = species, color = species)) +
+  geom_violin() +
+  theme_light(base_size = 12, base_family = "Varela Round") +
+  theme(panel.grid = element_blank()) +
+  scale_fill_manual(values = hermitage_palette("parsons_2")) +
+  scale_color_manual(values = hermitage_palette("parsons_2")) +
+  labs(title = "Flipper length by penguin species",
+       caption = "Source | palmerpenguins| https://allisonhorst.github.io/palmerpenguins/\nplot | Elena Dudukina | @evpatora\ncolors | Hermitage package 2021")
+
+col <- hermitage_palette("magdalene_titian")
+set.seed(34567)
+values <- sample(x = col, size = 3)
+
+ggplot(data = penguins, aes(x = bill_length_mm, y = body_mass_g, fill = species, color = species, group = species)) +
+  geom_point(size = 3, alpha = 0.8) +
+  theme_light(base_size = 12, base_family = "Varela Round") +
+  theme(panel.grid = element_blank()) +
+  scale_fill_manual(values = values) +
+  scale_color_manual(values = values) +
+  labs(title = "Correlation between bill length and body mass by penguin species",
+       caption = "Source | palmerpenguins| https://allisonhorst.github.io/palmerpenguins/\nplot | Elena Dudukina | @evpatora\ncolors | Hermitage package 2021")
+
+col <- hermitage_palette("faberge")
+set.seed(34567)
+values <- sample(x = col, size = 3)
+
+ggplot(data = penguins, aes(x = bill_length_mm, y = bill_depth_mm, fill = species, color = species, group = species)) +
+  geom_point(size = 3, alpha = 0.8) +
+  theme_light(base_size = 12, base_family = "Varela Round") +
+  theme(panel.grid = element_blank()) +
+  scale_fill_manual(values = values) +
+  scale_color_manual(values = values) +
+  labs(title = "Correlation between bill length and bill depth by penguin species",
+       caption = "Source | palmerpenguins| https://allisonhorst.github.io/palmerpenguins/\nplot | Elena Dudukina | @evpatora\ncolors | Hermitage package 2021")
+
+col <- hermitage_palette("judith")
+ggplot(data = penguins, aes(x = bill_length_mm, fill = species, group = species)) +
+  geom_histogram(alpha = 0.6, bins = 50) +
+  theme_light(base_size = 12, base_family = "Varela Round") +
+  scale_fill_manual(values = col) +
+  labs(title = "Bill length by penguin species",
+       caption = "Source | palmerpenguins| https://allisonhorst.github.io/palmerpenguins/\nplot | Elena Dudukina | @evpatora\ncolors | Hermitage package 2021")
+
+
+col <- hermitage_palette("harmony")
+ggplot(data = penguins, aes(x = bill_length_mm, y = flipper_length_mm,
+                            fill = species, color = species, group = species)) +
+  geom_point(size = 3, alpha = 0.7) +
+  geom_smooth(alpha = 0.6, method = "glm") +
+  theme_light(base_size = 12, base_family = "Varela Round") +
+  theme(panel.grid = element_blank()) +
+  scale_fill_manual(values = col) +
+  scale_color_manual(values = col) +
+  labs(title = "Correlation between bill length and flipper length by penguin species",
+       caption = "Source | palmerpenguins| https://allisonhorst.github.io/palmerpenguins/\nplot | Elena Dudukina | @evpatora\ncolors | Hermitage package 2021")
+```
+
+```{r}
+gdp %>%
+  filter(Entity %in% c("Sub-Sahara Africa", "East Asia", "Middle East", "South and South-East Asia",
+                       "Latin America", "Western Offshoots", "Eastern Europe", "Western Europe", "World")) %>%
+  group_by(Entity) %>%
+  mutate(label = case_when(
+    row_number() == n() ~ Entity,
+    T ~ NA_character_
+  )) %>%
+  ungroup() %>%
+  ggplot(aes(x = Year, y = `GDP per capita`, color = Entity)) +
+  geom_path() +
+  theme_light(base_size = 12, base_family = "Varela Round") +
+  expand_limits(y = 0) +
+  scale_x_continuous(breaks = c(seq(1820, 2018, 25))) +
+  scale_y_continuous(labels = scales::dollar_format())+
+  scale_color_manual(values = hermitage_palette(name = "cottages_vincent", type = "discrete")) +
+  theme(plot.caption = element_text(hjust = 0, size = 10),
+        legend.position = "bottom",
+        panel.spacing = unit(0.8, "cm")) +
+  ggrepel::geom_label_repel(aes(label = label), na.rm = TRUE, nudge_x = 1,
+                            direction = "y", segment.size = 0.1, segment.colour = "black", show.legend = F, inherit.aes = T) +
+  labs(title = "Global economic inequality", caption = "Source | Our World in Data | https://ourworldindata.org/global-economic-inequality-introduction\nplot | Elena Dudukina | @evpatora\ncolors | Hermitage package 2021")
+
+plot_area <- gdp %>%
+  filter(Entity %in% c("Sub-Sahara Africa", "East Asia", "Middle East", "South and South-East Asia",
+                       "Latin America", "Western Offshoots", "Eastern Europe", "Western Europe", "World")) %>%
+  group_by(Entity) %>%
+  mutate(label = case_when(
+    row_number() == n() ~ Entity,
+    T ~ NA_character_
+  )) %>%
+  ungroup() %>%
+  ggplot(aes(x = Year, y = `GDP per capita`, color = Entity, fill = Entity)) +
+  geom_area() +
+  theme_light(base_size = 12, base_family = "Varela Round") +
+  expand_limits(y = 0) +
+  scale_x_continuous(breaks = c(seq(1820, 2018, 25))) +
+  scale_y_continuous(labels = scales::dollar_format())+
+  scale_color_manual(values = hermitage_palette(name = "cottages_vincent", type = "discrete")) +
+  scale_fill_manual(values = hermitage_palette(name = "cottages_vincent", type = "discrete")) +
+  guides(color = "none") +
+  theme(plot.caption = element_text(hjust = 0, size = 10),
+        legend.position = "right",
+        panel.spacing = unit(0.8, "cm"),
+        panel.grid = element_blank()) +
+  labs(title = "Global economic inequality",
+       caption = "Source | Our World in Data | https://ourworldindata.org/global-economic-inequality-introduction\nplot | Elena Dudukina | @evpatora\ncolors | Hermitage package 2021")
+
+plot_area
+
+plot_area +
+  scale_color_manual(values = hermitage_palette(name = "parsons_2", type = "discrete")) +
+  scale_fill_manual(values = hermitage_palette(name = "parsons_2", type = "discrete"))
+
+plot_area +
+  scale_color_manual(values = hermitage_palette(name = "battista_cima", type = "discrete")) +
+  scale_fill_manual(values = hermitage_palette(name = "battista_cima", type = "discrete"))
+
+plot_area +
+  scale_color_manual(values = hermitage_palette(name = "kunstnefarver", type = "discrete")) +
+  scale_fill_manual(values = hermitage_palette(name = "kunstnefarver", type = "discrete"))
+
+plot_area +
+  scale_color_manual(values = hermitage_palette(name = "water_paint", type = "discrete")) +
+  scale_fill_manual(values = hermitage_palette(name = "water_paint", type = "discrete"))
+
+col <- hermitage_palette("parsons_1")
+set.seed(3256789)
+values <- sample(x = col, size = 9)
+
+plot_area +
+  scale_color_manual(values = values) +
+  scale_fill_manual(values = values)
+```
+
+```{r fig.height=12, fig.width=11}
+edu %>%
+  ggplot(aes(x = Year, y = `Primary adjusted enrolment ratio (Lee-Lee (2016))`, color = Entity)) +
+  geom_path() +
+  facet_wrap(~ Entity, labeller = labeller(Entity = label_wrap_gen(10))) +
+  theme_minimal(base_size = 8, base_family = "Varela Round") +
+  expand_limits(y = 0) +
+  scale_x_continuous(breaks = c(seq(1820, 2010, 75))) +
+  scale_color_manual(values = hermitage_palette(name = "parsons_2", type = "discrete")) +
+  theme(plot.caption = element_text(hjust = 0, size = 10),
+        legend.position = "none",
+        panel.spacing = unit(0.8, "cm"),
+        panel.grid = element_blank()
+        ) +
+  labs(title = "Proportion of children attending primary school: from 1820 to 2010",
+       caption = "Source | Lee and Lee (2016), Human capital in the long run. Journal of Development Economics &  Our World in Data\nhttps://ourworldindata.org/children-not-in-school\nplot | Elena Dudukina | @evpatora\ncolors | Hermitage package 2021")
+
+edu %>%
+  ggplot(aes(x = Year, y = `Primary adjusted enrolment ratio (Lee-Lee (2016))`, color = Entity, fill = Entity)) +
+  geom_area() +
+  facet_wrap(~ Entity, labeller = labeller(Entity = label_wrap_gen(10))) +
+  geom_vline(xintercept = 2005, color = "#99598b", linetype = 6) +
+  theme_void(base_size = 8, base_family = "Varela Round") +
+  expand_limits(y = 0) +
+  scale_x_continuous(breaks = c(seq(1820, 2010, 75))) +
+  scale_color_manual(values = hermitage_palette(name = "parsons_2", type = "discrete")) +
+  scale_fill_manual(values = hermitage_palette(name = "parsons_2", type = "discrete")) +
+  theme(plot.caption = element_text(hjust = 0, size = 10),
+        legend.position = "none",
+        panel.spacing = unit(0.8, "cm")
+  ) +
+  labs(title = "Proportion of children attending primary school: from 1820 to 2010",
+       caption = "Vertical line indicates year 2005\nSource | Lee and Lee (2016) & Our World in Data | https://ourworldindata.org/children-not-in-school\nplot | Elena Dudukina | @evpatora\ncolors | Hermitage package 2021")
+```
+

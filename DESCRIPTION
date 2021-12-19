@@ -1,0 +1,20 @@
+Type: Package
+Package: hermitage
+Title: Create versatile palettes inspired by colors of art collection of L'ermitage/Hermitage museum in St. Petersburg, Russia
+Version: 0.1.0
+Author: Elena Dudukina
+Maintainer: The package maintainer <evpatora@gmail.com>
+Description: Create ggplots with a touch of classic art
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    ggplot2,
+    graphics,
+    grDevices,
+    knitr,
+    rmarkdown
+RoxygenNote: 7.1.2
+Depends: 
+    R (>= 2.10)
+VignetteBuilder: knitr
