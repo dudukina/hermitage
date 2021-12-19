@@ -2,7 +2,7 @@
 title: "Hermitage package: palettes inspired by colors of art collection of L'ermitage/Hermitage museum"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{hermitage-vignette}
+  %\VignetteIndexEntry{Hermitage package: palettes inspired by colors of art collection of L'ermitage/Hermitage museum}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
@@ -213,4 +213,3 @@ edu %>%
   labs(title = "Proportion of children attending primary school: from 1820 to 2010",
        caption = "Vertical line indicates year 2005\nSource | Lee and Lee (2016) & Our World in Data | https://ourworldindata.org/children-not-in-school\nplot | Elena Dudukina | @evpatora\ncolors | Hermitage package 2021")
 ```
-
