@@ -30,7 +30,6 @@ hermitage_palette("collioure_matisse", type = "discrete"))
 ``` r
 library(hermitage)
 hermitage_palette("du_barry", type = "discrete"))
-=======
 ![](https://raw.githubusercontent.com/evpatora/hermitage/master/images/collioure_matisse.png)
 
 ``` r
