@@ -21,6 +21,18 @@ devtools::install_github("evpatora/hermitage")
 The [painting](https://en.wikipedia.org/wiki/Les_toits_de_Collioure) has been in the collection of The Hermitage, St. Petersburg, Russia since 1948.
 
 ![ScreenShot](https://raw.github.com/evpatora/hermitage/master/images/collioure_matisse.png)
+![ScreenShot](https://raw.github.com/evpatora/hermitage/master/images/WOA_IMAGE_2.jpeg)
+
+### Peacock Clock
+The Peacock Clock is a large mechanical clock featuring three life-sized [peacocks](https://www.hermitagemuseum.org/wps/portal/hermitage/digital-collection/08.+applied+arts/52984); it was manufactured in the 2nd half of the 18th century and is part of the collection of Hermitage.
+
+![ScreenShot](https://raw.github.com/evpatora/hermitage/master/images/peacock_clock.png)
+![ScreenShot](https://raw.github.com/evpatora/hermitage/master/images/WOA_IMAGE_3.jpeg)
+
+### Return of the Prodigal Son, Rembrandt Harmensz. van Rijn. [1606-1669](https://www.hermitagemuseum.org/wps/portal/hermitage/digital-collection/01.%20paintings/43413?lng=en)
+
+![ScreenShot](https://raw.github.com/evpatora/hermitage/master/images/prodigal_son.png)
+![ScreenShot](https://raw.github.com/evpatora/hermitage/master/images/WOA_IMAGE_1.jpeg)
 
 ## Use example
 
