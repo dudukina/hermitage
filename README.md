@@ -55,7 +55,7 @@ Red Room [Harmony in Red](https://www.hermitagemuseum.org/wps/portal/hermitage/d
 ![ScreenShot](https://raw.github.com/evpatora/hermitage/master/images/magdalene_titian.png)
 ![ScreenShot](https://raw.github.com/evpatora/hermitage/master/images/WOA_IMAGE_12.jpeg)
 
-### Portrait of General Pyotr Bagration (1765-1812), George Dawe and his [workshop](https://www.hermitagemuseum.org/wps/portal/hermitage/digital-collection/01.+Paintings/39082)
+### Portrait of General Pyotr Bagration (1765-1812), George Dawe and his workshop [see here](https://www.hermitagemuseum.org/wps/portal/hermitage/digital-collection/01.+Paintings/39082)
 
 ![ScreenShot](https://raw.github.com/evpatora/hermitage/master/images/bagration.png)
 ![ScreenShot](https://raw.github.com/evpatora/hermitage/master/images/WOA_IMAGE_7.jpeg)
