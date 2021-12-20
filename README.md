@@ -21,7 +21,7 @@ devtools::install_github("evpatora/hermitage")
 The [painting](https://en.wikipedia.org/wiki/Les_toits_de_Collioure) has been in the collection of The Hermitage, St. Petersburg, Russia since 1948.
 
 ![ScreenShot](https://raw.github.com/evpatora/hermitage/master/images/collioure_matisse.png)
-![ScreenShot](https://raw.github.com/evpatora/hermitage/master/images/WOA_IMAGE_2.jpeg)
+![ScreenShot]<img src="https://raw.github.com/evpatora/hermitage/master/images/WOA_IMAGE_2.jpeg" width="400" height="400">
 
 ### Peacock Clock
 The Peacock Clock is a large mechanical clock featuring three life-sized [peacocks](https://www.hermitagemuseum.org/wps/portal/hermitage/digital-collection/08.+applied+arts/52984); it was manufactured in the 2nd half of the 18th century and is part of the collection of Hermitage.
@@ -55,7 +55,7 @@ Red Room [Harmony in Red](https://www.hermitagemuseum.org/wps/portal/hermitage/d
 ![ScreenShot](https://raw.github.com/evpatora/hermitage/master/images/magdalene_titian.png)
 ![ScreenShot](https://raw.github.com/evpatora/hermitage/master/images/WOA_IMAGE_12.jpeg)
 
-### Portrait of General Pyotr Bagration (1765-1812), George Dawe and his workshop [see here](https://www.hermitagemuseum.org/wps/portal/hermitage/digital-collection/01.+Paintings/39082)
+### Portrait of General Pyotr Bagration (1765-1812), George Dawe and his [workshop](https://www.hermitagemuseum.org/wps/portal/hermitage/digital-collection/01.+Paintings/39082)
 
 ![ScreenShot](https://raw.github.com/evpatora/hermitage/master/images/bagration.png)
 ![ScreenShot](https://raw.github.com/evpatora/hermitage/master/images/WOA_IMAGE_7.jpeg)
@@ -81,6 +81,17 @@ Actually belongs to the collection of Pushkin Museum, Moscow, Russia.
 
 ![ScreenShot](https://raw.github.com/evpatora/hermitage/master/images/madonna_litta.png)
 ![ScreenShot](https://raw.github.com/evpatora/hermitage/master/images/WOA_IMAGE_11.jpeg)
+
+
+### Cottages, Van Gogh, Vincent. [1853-1890](https://www.hermitagemuseum.org/wps/portal/hermitage/digital-collection/!ut/p/z0/Zc3BcoIwFIXhV6ELlvVeMIDbEG2tleJk4WA2TKpAU-gNQkb7-OrSYXlmznw_KChAkb6YRjtjSXf3fVBxmXMeB3OBm1xES-S53EVSfL1jwGAD6ukQxRw5yjmL9xmyD_YQwiETWQOq1-7n1VBtoZCy0LRab8lm_eXzFC53dZpWb8J2XXV8tCfwpHyHze_5rDiooyVX_TsoWv1nxrIiH692aEfP1p4enI8YzLxeG3KGmtHHcJEkDPpWfUdd83ID85sa2Q!!/)
+
+![ScreenShot](https://raw.github.com/evpatora/hermitage/master/images/cottages_vincent.png)
+![ScreenShot](https://raw.github.com/evpatora/hermitage/master/images/WOA_IMAGE_13.jpeg)
+
+### Danaë, Rembrandt Harmensz. van Rijn. [1606-1669]()
+
+![ScreenShot](https://raw.github.com/evpatora/hermitage/master/images/danae.png)
+![ScreenShot](https://raw.github.com/evpatora/hermitage/master/images/WOA_IMAGE_14.jpeg)
 
 ## Use example
 
