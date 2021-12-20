@@ -53,7 +53,7 @@ Red Room [Harmony in Red](https://www.hermitagemuseum.org/wps/portal/hermitage/d
 ### Repentant Mary Magdalene, Titian (Tiziano Vecellio), [between 1485 and 1490-1576](https://www.hermitagemuseum.org/wps/portal/hermitage/digital-collection/!ut/p/z0/rZDLTsMwEEV_JV1kV-NxYrvN0goSoiIEZYGKN5UbnGASbNcxz68nWSEeS6TZ3NHMnTMXS7zH0qoX06tonFXjrO8kP9RCcJKXsKtLdg6ibm5YU15fAKF4h-W3AcYFCGhyym8roJd0cchCVVY9ll7FB2Rs5_D-2dyjghCSo7m2FHGOMkI3qIC5iTZbRlGeEQDEGOKwdp1q9dG5Ye1iUHbyKmgbWzeOul1Ilyvm8XSSAsvW2ajfIt7HYLwflbU6-DYFr8O0_IS-1qYU_hvkZx6_AvuLdFBPZjpom8KrC8OUuC5RIaYA5CzxythobD-zziAFwX6Qx_f840qI1eoT2ckdFQ!!/)
 
 ![ScreenShot](https://raw.github.com/evpatora/hermitage/master/images/magdalene_titian.png)
-![ScreenShot](https://raw.github.com/evpatora/hermitage/master/images/WOA_IMAGE_7.jpeg)
+![ScreenShot](https://raw.github.com/evpatora/hermitage/master/images/WOA_IMAGE_12.jpeg)
 
 ### Portrait of General Pyotr Bagration (1765-1812), George Dawe and his [workshop](https://www.hermitagemuseum.org/wps/portal/hermitage/digital-collection/01.+Paintings/39082)
 
