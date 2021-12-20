@@ -213,3 +213,32 @@ edu %>%
   labs(title = "Proportion of children attending primary school: from 1820 to 2010",
        caption = "Vertical line indicates year 2005\nSource | Lee and Lee (2016) & Our World in Data | https://ourworldindata.org/children-not-in-school\nplot | Elena Dudukina | @evpatora\ncolors | Hermitage package 2021")
 ```
+
+
+```{r}
+# remotes::install_github("wilkelab/practicalgg")
+data(texas_income, package = "practicalgg")
+
+col_1 <- hermitage_palette(n = 1e3, name = "hermitage_1", type = "continuous")
+col_2 <- hermitage_palette(n = 1e3, name = "hermitage_2", type = "continuous")
+col_3 <- hermitage_palette(n = 1e3, name = "delft_ware", type = "continuous")
+col_4 <- hermitage_palette(n = 1e3, name = "faberge", type = "continuous")
+
+plot <- ggplot(texas_income, aes(fill = estimate)) + 
+  geom_sf(color = "white") +
+  coord_sf(xlim = c(538250, 2125629), crs = 3083) +
+  cowplot::theme_map(12, font_family = "Varela Round") +
+  theme(
+    legend.title.align = 0.5,
+    legend.text.align = 0.5,
+    legend.justification = c(0, 0),
+    legend.position = c(0.02, 0.1)
+  ) +
+  labs(caption = "code inspired by https://clauswilke.com/blog/2020/09/08/a-blogdown-post-for-the-ages/")
+
+plot + scale_fill_gradientn(colors = col_1)
+plot + scale_fill_gradientn(colors = col_2)
+plot + scale_fill_gradientn(colors = col_3)
+plot + scale_fill_gradientn(colors = col_4)
+```
+
