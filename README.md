@@ -34,6 +34,54 @@ The Peacock Clock is a large mechanical clock featuring three life-sized [peacoc
 ![ScreenShot](https://raw.github.com/evpatora/hermitage/master/images/prodigal_son.png)
 ![ScreenShot](https://raw.github.com/evpatora/hermitage/master/images/WOA_IMAGE_1.jpeg)
 
+### Matisse, Henri. 1869-1954
+Red Room [Harmony in Red](https://www.hermitagemuseum.org/wps/portal/hermitage/digital-collection/!ut/p/z0/Zc3LDoIwEIXhV8EFS53hGl02NTGSIIaFwW5IVcRKnXJp0McXlsblSU6-HwQUIEiOqpZWGZJ62mcRlxljsRdwTDIebZFl-THK-WGHXggJiJ9DFDNkmAdhfEox3Iez4PcpT2sQrbSPpaK7gUKP5lYRqcaMkhutq-sc_NP-cpOmnl0nGIirIVt9LBSNfKmhrMjFt-mbwTF3R_bWRfRWTisVWUX14KK_DtYbaBtxiXS9-AKVEYB1/)
+
+![ScreenShot](https://raw.github.com/evpatora/hermitage/master/images/harmony.png)
+![ScreenShot](https://raw.github.com/evpatora/hermitage/master/images/WOA_IMAGE_4.jpeg)
+
+### Dance, Matisse, Henri. [1869-1954](https://www.hermitagemuseum.org/wps/portal/hermitage/digital-collection/01.+Paintings/28411/?lng=)
+
+![ScreenShot](https://raw.github.com/evpatora/hermitage/master/images/dance_matisse.png)
+![ScreenShot](https://raw.github.com/evpatora/hermitage/master/images/WOA_IMAGE_5.jpeg)
+
+### Judith, Giorgione (Giorgio Barbarelli da Castelfranco). [1478(?)-1510](https://www.hermitagemuseum.org/wps/portal/hermitage/digital-collection/!ut/p/z0/Zc69bsMgFAXgV3EHb6FcbCDxiKhUJZLrykPlskTEwS61Aw6mP49fMlaR7nKujo4-rHCHldPfdtTReqfnlN8VPzZCcFJKODSSPYFo2lfWypdnIBQfsPpXYFyAgLak_K0Guqe3hSLUsh6xWnT8QNYNHndf9owqQkiJ0u0o4hwVhG5RBemJtjtGUVkQAMQY4rDxg-7Nyftp42PQbl10MC5KP8-mv0nvGHfOxLCf16sSWPXeRfMbcTfpi12PxuXw48O0Zn7IdIg5AHnMFm1dtG5cc0iQiuNlUic2jw9_oGXJ9g!!/)
+
+![ScreenShot](https://raw.github.com/evpatora/hermitage/master/images/judith.png)
+![ScreenShot](https://raw.github.com/evpatora/hermitage/master/images/WOA_IMAGE_6.jpeg)
+
+### Repentant Mary Magdalene, Titian (Tiziano Vecellio), [between 1485 and 1490-1576](https://www.hermitagemuseum.org/wps/portal/hermitage/digital-collection/!ut/p/z0/rZDLTsMwEEV_JV1kV-NxYrvN0goSoiIEZYGKN5UbnGASbNcxz68nWSEeS6TZ3NHMnTMXS7zH0qoX06tonFXjrO8kP9RCcJKXsKtLdg6ibm5YU15fAKF4h-W3AcYFCGhyym8roJd0cchCVVY9ll7FB2Rs5_D-2dyjghCSo7m2FHGOMkI3qIC5iTZbRlGeEQDEGOKwdp1q9dG5Ye1iUHbyKmgbWzeOul1Ilyvm8XSSAsvW2ajfIt7HYLwflbU6-DYFr8O0_IS-1qYU_hvkZx6_AvuLdFBPZjpom8KrC8OUuC5RIaYA5CzxythobD-zziAFwX6Qx_f840qI1eoT2ckdFQ!!/)
+
+![ScreenShot](https://raw.github.com/evpatora/hermitage/master/images/magdalene_titian.png)
+![ScreenShot](https://raw.github.com/evpatora/hermitage/master/images/WOA_IMAGE_7.jpeg)
+
+### Portrait of General Pyotr Bagration (1765-1812), George Dawe and his [workshop](https://www.hermitagemuseum.org/wps/portal/hermitage/digital-collection/01.+Paintings/39082)
+
+![ScreenShot](https://raw.github.com/evpatora/hermitage/master/images/bagration.png)
+![ScreenShot](https://raw.github.com/evpatora/hermitage/master/images/WOA_IMAGE_7.jpeg)
+
+### Flight, Paul Gauguin, [1901](https://www.wikiart.org/en/paul-gauguin/flight-1901)
+
+Actually belongs to the collection of Pushkin Museum, Moscow, Russia.
+
+![ScreenShot](https://raw.github.com/evpatora/hermitage/master/images/flight_gauguin.png)
+![ScreenShot](https://raw.github.com/evpatora/hermitage/master/images/WOA_IMAGE_8.jpeg)
+
+### The Winter [Palace](https://www.hermitagemuseum.org/wps/portal/hermitage/explore/buildings/locations/building/B10)
+
+![ScreenShot](https://raw.github.com/evpatora/hermitage/master/images/hermitage_1.png)
+![ScreenShot](https://raw.github.com/evpatora/hermitage/master/images/WOA_IMAGE_9.jpeg)
+
+### [Crimson Drawing-Room](https://www.hermitagemuseum.org/wps/portal/hermitage/explore/buildings/rooms/?WCM_Page.24333d6b-7573-42c8-9306-1b74ecc9c878=8), Hermitage
+
+![ScreenShot](https://raw.github.com/evpatora/hermitage/master/images/hermitage_2.png)
+![ScreenShot](https://raw.github.com/evpatora/hermitage/master/images/WOA_IMAGE_10.jpeg)
+
+### The Madonna and Child (The Litta Madonna), Leonardo da Vinci. [1452-1519](https://www.hermitagemuseum.org/wps/portal/hermitage/digital-collection/01.+paintings/29633)
+
+![ScreenShot](https://raw.github.com/evpatora/hermitage/master/images/madonna_litta.png)
+![ScreenShot](https://raw.github.com/evpatora/hermitage/master/images/WOA_IMAGE_11.jpeg)
+
 ## Use example
 
 ``` r
