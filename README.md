@@ -21,7 +21,7 @@ devtools::install_github("evpatora/hermitage")
 The [painting](https://en.wikipedia.org/wiki/Les_toits_de_Collioure) has been in the collection of The Hermitage, St. Petersburg, Russia since 1948.
 
 ![ScreenShot](https://raw.github.com/evpatora/hermitage/master/images/collioure_matisse.png)
-![ScreenShot]<img src="https://raw.github.com/evpatora/hermitage/master/images/WOA_IMAGE_2.jpeg" width="400" height="400">
+<img src="https://raw.github.com/evpatora/hermitage/master/images/WOA_IMAGE_2.jpeg" data-canonical-src="https://raw.github.com/evpatora/hermitage/master/images/WOA_IMAGE_2.jpeg" width="400" height="400" />
 
 ### Peacock Clock
 The Peacock Clock is a large mechanical clock featuring three life-sized [peacocks](https://www.hermitagemuseum.org/wps/portal/hermitage/digital-collection/08.+applied+arts/52984); it was manufactured in the 2nd half of the 18th century and is part of the collection of Hermitage.
