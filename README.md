@@ -32,7 +32,7 @@ The Peacock Clock is a large mechanical clock featuring three life-sized [peacoc
 ### Return of the Prodigal Son, Rembrandt Harmensz. van Rijn. [1606-1669](https://www.hermitagemuseum.org/wps/portal/hermitage/digital-collection/01.%20paintings/43413?lng=en)
 
 ![ScreenShot](https://raw.github.com/evpatora/hermitage/master/images/prodigal_son.png)
-![ScreenShot](https://raw.github.com/evpatora/hermitage/master/images/WOA_IMAGE_3.jpeg)
+![ScreenShot](https://raw.github.com/evpatora/hermitage/master/images/WOA_IMAGE_1.jpeg)
 
 ### Matisse, Henri. 1869-1954
 Red Room [Harmony in Red](https://www.hermitagemuseum.org/wps/portal/hermitage/digital-collection/!ut/p/z0/Zc3LDoIwEIXhV8EFS53hGl02NTGSIIaFwW5IVcRKnXJp0McXlsblSU6-HwQUIEiOqpZWGZJ62mcRlxljsRdwTDIebZFl-THK-WGHXggJiJ9DFDNkmAdhfEox3Iez4PcpT2sQrbSPpaK7gUKP5lYRqcaMkhutq-sc_NP-cpOmnl0nGIirIVt9LBSNfKmhrMjFt-mbwTF3R_bWRfRWTisVWUX14KK_DtYbaBtxiXS9-AKVEYB1/)
